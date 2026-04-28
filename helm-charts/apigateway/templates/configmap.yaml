@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: {{ .Chart.Name }}-config
-data:
-  QUOTES_API: "http://quoteservice.default.svc.cluster.local:5000"
